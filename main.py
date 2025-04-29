@@ -20,13 +20,14 @@ Answer_list = ['b','jack black','a','steel','water','a minecraft movie','new zea
 # Displays the questions to the user
 for i in range(len(Question_list)): # Repeats until it cant anymore
     answer = input(Question_list[i])
-    time.sleep(1.5)
     if answer.lower() == Answer_list[i].lower():
         score += 10
         print("\nGood job\nYour new score is {}\n".format(score))
+        time.sleep(1.5)
     else:
         print("\nSorry, that's wrong\nYour score will stay at {}\n".format(score))
-a
+        time.sleep(1.5)
+
 # Outro & final score
 print("Your final score is {}/70".format(score))
 print("Thank you for playing my quiz about \"A Minecraft Movie\"\nI hope you enjoyed it")
