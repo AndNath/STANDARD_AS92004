@@ -9,7 +9,7 @@ time.sleep(2)
 Question_list = [\
 'Q1: When did \"A Minecraft movie\" come out?\n A: 4rd of April\n B: 3th of April\n C: 1st of April\n ',\
 'Q2: Who plays the character Steve?\n ',\
-'Q3\n A: To mine.\n B: To work.\n C: live with his parents.\n ',\
+'Q3: What did \"Steve\" want as a kid?\n A: To mine.\n B: To work.\n C: live with his parents.\n ',\
 'Q4: Finish the line, \"Flint and _____\"\n ',\
 'Q5: Finish the line \"_____ bucket release\"\n ',\
 'Q6: What is the name of the movie \"A Minecraft movie\"?\n ',\
