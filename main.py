@@ -20,7 +20,7 @@ Answer_list = ['B','Jack Black','A','Steel','Water','A Minecraft Movie','New Zea
 # Displays the questions on screen for the user to answer
 for i in range(len(Question_list)): # Loop repeats until it cant anymore
     answer = input(Question_list[i])
-    if answer.lower() == Answer_list[i].lower():
+    if answer.lower() == Answer_list[i].lower(): # If the answer is = to "i" goodjob.
         score += 10
         print("\nGood job\nYour new score is {}\n".format(score))
         time.sleep(1.5)
