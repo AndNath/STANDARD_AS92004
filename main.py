@@ -13,19 +13,19 @@ Question_list = [\
 'Q4: Finish the line, \"Flint and _____\"\n ',\
 'Q5: Finish the line \"_____ bucket release\"\n ',\
 'Q6: What is the name of the movie \"A Minecraft movie\"?\n ',\
-'Q7: Where was \"A Minecraft Movie\" filmed?\n ']
+'Q7: Where was \"A Minecraft Movie\" filmed?\n '\
+]
+Answer_list = ['B','Jack Black','A','Steel','Water','A Minecraft Movie','New Zealand']
 
-Answer_list = ['b','jack black','a','steel','water','a minecraft movie','new zealand']
-
-# Displays the questions to the user
-for i in range(len(Question_list)): # Repeats until it cant anymore
+# Displays the questions on screen for the user to answer
+for i in range(len(Question_list)): # Loop repeats until it cant anymore
     answer = input(Question_list[i])
     if answer.lower() == Answer_list[i].lower():
         score += 10
         print("\nGood job\nYour new score is {}\n".format(score))
         time.sleep(1.5)
     else:
-        print("\nSorry, that's wrong\nYour score will stay at {}\n".format(score))
+        print("\nSorry, that's wrong\n The Correct answer was {}\n Your score will stay at {}\n".format(Answer_list[i], score))
         time.sleep(1.5)
 
 # Outro & final score
